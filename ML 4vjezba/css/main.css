@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00437A;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #00437A;
+}
+
+.nav a:hover {
+    background-color: #023E73;
+}
+
+.menu-button {
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.hero, .study-programs, .tools, .score-simulation, .comparison {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-image, .program img, .tool img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cards, .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card, .form-group, .program, .tool {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.calculate-button {
+    padding: 10px 20px;
+    background-color: #00437A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculate-button:hover {
+    background-color: #023E73;
+}
+
+.footer {
+    background-color: #00437A;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info p, .social-media a {
+    margin: 5px 0;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    height: 24px;
+    width: 24px;
+}
